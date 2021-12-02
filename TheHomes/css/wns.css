@@ -1,0 +1,81 @@
+.header{
+	background-color:#222;
+	display:flex;
+	justify-content:center;
+}
+.announcement{
+	background: #e5636f;
+    padding: 0px 20px;
+    border-radius: 24px
+}
+.header-design{
+	display:flex;
+}
+.main{
+	padding: 0px !important;
+	overflow: hidden;
+}
+.banner{
+	padding: 0px;
+}
+.covid h3{
+	font-size:16px;
+	font-weight:600;
+	color:#fff;
+	margin: 0px;
+}
+.announcement h3{
+	font-size: 18px;
+	font-weight: 500;
+	color: #fff;
+	margin: 0px;
+	padding: 4px;
+}
+.covid{
+	text-indent: 15px;
+}
+.navs{
+	background-color: #e55b51;
+	display: flex;
+}
+.nav-item a{
+	color: #fff !important;
+	font-size: 18px;
+	font-weight: 500;
+}
+.logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner img{
+	width: 100% !important;
+}
+.shop{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+.support h2{
+	text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+@media only screen and (max-width: 992px){
+	.shop{
+		flex-direction: column;
+		padding: 15px 0px;
+	}
+	.shop-1{
+		padding-bottom: 15px;
+	}
+	.header-design{
+		display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+	}
+} 
